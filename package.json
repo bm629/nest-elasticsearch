@@ -1,6 +1,6 @@
 {
   "name": "@bm629/nest-elasticsearch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nestjs library for elasticsearch client",
   "main": "build/lib/index.js",
   "typings": "build/types/index.d.ts",
