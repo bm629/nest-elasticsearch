@@ -15,10 +15,10 @@ This module supports elasticsearch version 5.x to 7.x
 $ npm i --save @bm629/nest-elasticsearch es7@npm:@elastic/elasticsearch
 
 # For version 6.x
-$ npm i --save @bm629/nest-elasticsearch es7@npm:@elastic/elasticsearch@6
+$ npm i --save @bm629/nest-elasticsearch es6@npm:@elastic/elasticsearch@6
 
 # For version 5.x
-$ npm i --save @bm629/nest-elasticsearch es7@npm:@elastic/elasticsearch@5
+$ npm i --save @bm629/nest-elasticsearch es5@npm:@elastic/elasticsearch@5
 ```
 
 ## Usage
