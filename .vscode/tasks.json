@@ -1,0 +1,110 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Clean Project",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "clean"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Bootstrap Project",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "bootstrap"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Compile Project",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "build"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$eslint-compact", "$eslint-stylish", "$tsc"],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Lint Project",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "lint"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Fix Lint Issues",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "fix"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Test Cases",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "test"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$eslint-compact", "$eslint-stylish", "$tsc"],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "Generate Doc",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "doc"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$eslint-compact", "$eslint-stylish", "$tsc"],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ]
+}

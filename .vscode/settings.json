@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "Dockerfile*": "dockerfile"
+  },
+  "debug.node.autoAttach": "off",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "workbench.tree.indent": 30,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
